@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;g:preferences&gt;
+	&lt;g:preference name="${1:name}" type="${2:hidden}"${3: default="${4:value}"}${5: label="${6:$1/\u$0:/}"}/&gt;
+&lt;/g:preferences&gt;</string>
+	<key>name</key>
+	<string>&lt;g:preferences&gt;</string>
+	<key>scope</key>
+	<string>text.xml.backbase</string>
+	<key>tabTrigger</key>
+	<string>prefs</string>
+	<key>uuid</key>
+	<string>3BBCE898-2B51-44F7-A1C4-B550405F0085</string>
+</dict>
+</plist>

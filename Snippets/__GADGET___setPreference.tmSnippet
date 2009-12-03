@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>${1:__GADGET__}.setPreference(${2:'${3:Data}'}, ${4:'${5:value}'});</string>
+	<key>name</key>
+	<string>__GADGET__.setPreference</string>
+	<key>scope</key>
+	<string>source.js</string>
+	<key>tabTrigger</key>
+	<string>prefw</string>
+	<key>uuid</key>
+	<string>06D81F13-9A30-4D12-804A-8489F5AA1965</string>
+</dict>
+</plist>

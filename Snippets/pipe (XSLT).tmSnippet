@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;pipe name="${1:pipName}"&gt;
+	&lt;response-transform&gt;
+		&lt;transform class="${2:com.backbase.ptc.transform.response.impl.XSLTTransformer}"&gt;
+			&lt;param name="${3:xsltFile}" value="${4:$:5{/gadgets/path/to}${6:.xsl}}" /&gt;
+			&lt;param name="cacheXSLFile" value="false" /&gt;
+		&lt;/transform&gt;
+	&lt;/response-transform&gt;
+&lt;/pipe&gt;</string>
+	<key>name</key>
+	<string>pipe (XSLT)</string>
+	<key>scope</key>
+	<string>text.xml.backbase</string>
+	<key>tabTrigger</key>
+	<string>pipe</string>
+	<key>uuid</key>
+	<string>E3F10912-AF49-4918-A62B-5629C7F3A79E</string>
+</dict>
+</plist>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;pipe name="${1:name}"&gt;
+	${2:&lt;cache id="${3:defaultCache}" /&gt;}
+&lt;/pipe&gt;</string>
+	<key>name</key>
+	<string>pipe</string>
+	<key>scope</key>
+	<string>text.xml.backbase</string>
+	<key>tabTrigger</key>
+	<string>pipe</string>
+	<key>uuid</key>
+	<string>BFD54C34-C7D1-4F05-B9BA-1E5FA0A6C4EF</string>
+</dict>
+</plist>

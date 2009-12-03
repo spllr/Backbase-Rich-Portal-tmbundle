@@ -2,8 +2,78 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>mainMenu</key>
+	<dict>
+		<key>items</key>
+		<array>
+			<string>B5290719-D4EE-45B5-9A6D-3047A63E5CEE</string>
+			<string>5E43C793-BB23-4540-AFF7-8F5131BD1BB3</string>
+		</array>
+		<key>submenus</key>
+		<dict>
+			<key>5E43C793-BB23-4540-AFF7-8F5131BD1BB3</key>
+			<dict>
+				<key>items</key>
+				<array>
+					<string>BFD54C34-C7D1-4F05-B9BA-1E5FA0A6C4EF</string>
+					<string>E3F10912-AF49-4918-A62B-5629C7F3A79E</string>
+				</array>
+				<key>name</key>
+				<string>PTC</string>
+			</dict>
+			<key>804072C9-077C-4BC6-A838-3F7967D9525B</key>
+			<dict>
+				<key>items</key>
+				<array>
+					<string>8ECF0AB3-9E00-441D-85FC-151600FCB351</string>
+					<string>4BF0A02F-5B53-4F72-80E4-A0A45B87DDCF</string>
+					<string>7A7322C3-4B92-456A-9129-D3180CE08051</string>
+					<string>670CEADD-02CE-439B-B6BD-37BF2D8807AA</string>
+					<string>3BBCE898-2B51-44F7-A1C4-B550405F0085</string>
+					<string>631598C6-1607-4BA0-8A49-987071D3B0CA</string>
+				</array>
+				<key>name</key>
+				<string>XML</string>
+			</dict>
+			<key>B5290719-D4EE-45B5-9A6D-3047A63E5CEE</key>
+			<dict>
+				<key>items</key>
+				<array>
+					<string>B0C4BA1F-175E-4A41-A3D6-DA47F8D11B5D</string>
+					<string>804072C9-077C-4BC6-A838-3F7967D9525B</string>
+					<string>CFECD14A-885B-4066-B44A-5E64EC500923</string>
+				</array>
+				<key>name</key>
+				<string>Gadget</string>
+			</dict>
+			<key>CFECD14A-885B-4066-B44A-5E64EC500923</key>
+			<dict>
+				<key>items</key>
+				<array>
+					<string>06D81F13-9A30-4D12-804A-8489F5AA1965</string>
+					<string>6C43A8BF-D9B9-4935-B67D-6E723AB1A1F7</string>
+				</array>
+				<key>name</key>
+				<string>JavaScript</string>
+			</dict>
+		</dict>
+	</dict>
 	<key>name</key>
 	<string>Backbase Rich Portal</string>
+	<key>ordering</key>
+	<array>
+		<string>B0C4BA1F-175E-4A41-A3D6-DA47F8D11B5D</string>
+		<string>8ECF0AB3-9E00-441D-85FC-151600FCB351</string>
+		<string>4BF0A02F-5B53-4F72-80E4-A0A45B87DDCF</string>
+		<string>7A7322C3-4B92-456A-9129-D3180CE08051</string>
+		<string>670CEADD-02CE-439B-B6BD-37BF2D8807AA</string>
+		<string>3BBCE898-2B51-44F7-A1C4-B550405F0085</string>
+		<string>631598C6-1607-4BA0-8A49-987071D3B0CA</string>
+		<string>06D81F13-9A30-4D12-804A-8489F5AA1965</string>
+		<string>6C43A8BF-D9B9-4935-B67D-6E723AB1A1F7</string>
+		<string>BFD54C34-C7D1-4F05-B9BA-1E5FA0A6C4EF</string>
+		<string>E3F10912-AF49-4918-A62B-5629C7F3A79E</string>
+	</array>
 	<key>uuid</key>
 	<string>B0A01BF4-AFFC-4630-8063-4F85110BC2D7</string>
 </dict>

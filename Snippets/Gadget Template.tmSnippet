@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"&gt;
+&lt;html xmlns="http://www.w3.org/1999/xhtml" xmlns:g="http://www.backbase.com/2008/gadget" xml:lang="en"&gt;
+	&lt;head&gt;
+		&lt;!-- Portal Setup --&gt;
+		&lt;!-- Portal Framework (standalone) --&gt;
+		&lt;script src="../../../portal_4_1/standalone.js" type="text/javascript"&gt;&lt;/script&gt;
+		&lt;!-- Portal Basic CSS --&gt;
+		&lt;link  href="../../../portal_4_1/standalone.css" type="text/css" rel="stylesheet" /&gt;
+		&lt;script src="../../../4_4_1/engine/boot.js" type="text/javascript"&gt;&lt;/script&gt;
+
+		&lt;!-- Gadget Implementation --&gt;
+
+		&lt;title&gt;${1:Gadget Title}&lt;/title&gt;
+		&lt;!--&lt;link rel="icon" type="image/png" href="favicon.png" /&gt;--&gt;
+		&lt;meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /&gt;
+		&lt;meta name="author" content="${BACKBASE_AUTHOR:$TM_FULLNAME}" /&gt;
+		&lt;meta name="keywords" content="gadget" /&gt;
+		&lt;meta name="copyright" content="Copyright 2003-2009 ${BACKBASE_AUTHOR:$TM_FULLNAME}" /&gt;
+		&lt;meta name="description" content="A Gadget" /&gt;
+
+		&lt;g:preferences&gt;
+			&lt;g:preference name="contentURL" type="input" default="${2:http://${3:path/to/content}}" /&gt;
+		&lt;/g:preferences&gt;
+		&lt;style type="text/css"&gt;
+			.samplegadget {
+
+			}
+		&lt;/style&gt;
+	&lt;/head&gt;
+	&lt;body class="samplegadget" g:onload="alert(__GADGET__)" g:onmaximize="alert('maximize')"&gt;
+		&lt;g:include proxy="true" src="${contentURL}"&gt;
+			&lt;g:http-proxy-param name="pipe" value="${4:myPipe}" /&gt;$0
+		&lt;/g:include&gt;
+	&lt;/body&gt;
+&lt;/html&gt;</string>
+	<key>name</key>
+	<string>Gadget Template</string>
+	<key>scope</key>
+	<string>text.xml.backbase</string>
+	<key>tabTrigger</key>
+	<string>gadget</string>
+	<key>uuid</key>
+	<string>B0C4BA1F-175E-4A41-A3D6-DA47F8D11B5D</string>
+</dict>
+</plist>
