@@ -8,9 +8,9 @@
 	&lt;head&gt;
 		&lt;!-- Portal Setup --&gt;
 		&lt;!-- Portal Framework (standalone) --&gt;
-		&lt;script src="../../../portal_4_1/standalone.js" type="text/javascript"&gt;&lt;/script&gt;
+		&lt;script src="../../../portal_4_2/standalone.js" type="text/javascript"&gt;&lt;/script&gt;
 		&lt;!-- Portal Basic CSS --&gt;
-		&lt;link  href="../../../portal_4_1/standalone.css" type="text/css" rel="stylesheet" /&gt;
+		&lt;link  href="../../../portal_4_2/standalone.css" type="text/css" rel="stylesheet" /&gt;
 		&lt;script src="../../../4_4_1/engine/boot.js" type="text/javascript"&gt;&lt;/script&gt;
 
 		&lt;!-- Gadget Implementation --&gt;
